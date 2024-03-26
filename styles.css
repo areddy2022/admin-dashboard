@@ -110,7 +110,6 @@ button {
 
 .project-cards-container {
     margin-left: 1em;
-    margin-top: 1em;
     display: grid;
     grid-template-columns: 10fr 10fr;
     grid-row-start: 2;
@@ -142,4 +141,36 @@ button {
     font-weight: bold;
     margin-top: 1em;
     margin-left: 1em;
+}
+
+.announcements-container {
+    margin: 1em;
+}
+
+.announcements-inner-container {
+    margin-top: 1em;
+    padding: 1em;
+    background-color: grey;
+    border-radius: 1em;
+    min-width: 300px;
+    min-height: 150px;
+    width: auto;
+    display: grid;
+    grid-template-rows: 1fr 4fr 2fr; 
+}
+
+.trending-container {
+    margin: 1em;
+}
+
+.trending-inner-container {
+    margin-top: 1em;
+    padding: 1em;
+    background-color: grey;
+    border-radius: 1em;
+    min-width: 300px;
+    min-height: 150px;
+    width: auto;
+    display: grid;
+    grid-template-rows: 1fr 4fr 2fr; 
 }
